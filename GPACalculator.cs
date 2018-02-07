@@ -17,8 +17,7 @@ namespace GPACalculator
           //Use string since your variable will be recorded as a name
           string name;
           //Use decimal since GPA's can include decimals, i.e. 3.75.
-          decimal first, second, third, fourth;
-          decimal sum, GPA;
+          decimal first, second, third, fourth, sum, GPA;
           //Because of the "using static System.Console" we typed farther up, we can simply put Write() instead of Console.WriteLine()
           Write("Hello and welcome to the weighted GPA Calculator program, please enter your name...");
           //The string name is equal to whatever the user types as their name
